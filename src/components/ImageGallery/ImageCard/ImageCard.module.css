@@ -1,0 +1,13 @@
+.cardImg {
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cardInfo {
+  background-color: lightblue;
+  border-radius: 8px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

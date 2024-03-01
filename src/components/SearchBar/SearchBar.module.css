@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+  background-color: lightblue;
+}
+.label {
+  position: relative;
+}
+.input {
+  outline: none;
+  margin: 0 auto;
+  padding: 10px;
+}
+.searchBtn {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
