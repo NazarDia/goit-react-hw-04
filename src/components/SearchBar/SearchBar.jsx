@@ -6,7 +6,7 @@ const notify = () =>
   toast('Search bar can not be empty!', {
     duration: 3000,
     style: { border: 'solid 2px black', backgroundColor: 'lightgrey' },
-    position: 'top-right',
+    position: 'top-center',
   });
 
 export const SearchBar = ({ onSubmit }) => {
