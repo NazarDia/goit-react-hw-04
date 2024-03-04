@@ -5,14 +5,13 @@ export const ImageGallery = ({ items, openModal }) => {
   return (
     <ul className={style.list}>
       {items.map(item => (
-        <li
-          className={style.item}
-          key={item.id}
-          onClick={() => {
-            openModal(item);
-          }}
-        >
-          <ImageCard item={item} />
+        <li className={style.item} key={item.id}>
+          <ImageCard
+            item={item}
+            onClick={() => {
+              openModal(item);
+            }}
+          />
         </li>
       ))}
     </ul>
