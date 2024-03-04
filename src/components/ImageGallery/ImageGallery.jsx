@@ -1,5 +1,5 @@
 import style from './ImageGallery.module.css';
-import { ImageCard } from './ImageCard/ImageCard';
+import { ImageCard } from '../ImageCard/ImageCard';
 
 export const ImageGallery = ({ items, openModal }) => {
   return (
